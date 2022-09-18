@@ -13,11 +13,10 @@ repositories {
 }
 
 ext {
-    junitVersion = '5.8.2'
+    junitVersion = '5.9.0'
 }
 
 sourceCompatibility = '11'
-targetCompatibility = '11'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
@@ -35,6 +34,7 @@ javafx {
 
 dependencies {
 
+    implementation 'org.junit.jupiter:junit-jupiter:5.9.0'
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 }
