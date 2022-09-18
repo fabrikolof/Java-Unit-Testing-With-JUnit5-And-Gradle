@@ -15,11 +15,6 @@ build/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-### added by me ###
-.idea/sonarlint/issuestore/7/
-.idea/sonarlint/issuestore/a/
-.idea/sonarlint/issuestore/f/
-.idea/uiDesigner.xml
 
 
 ### Eclipse ###
